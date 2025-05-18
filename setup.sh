@@ -16,5 +16,5 @@ ls -la /home
 ls -la /home/linuxbrew
 
 for package in "${packages[@]}"; do
-  /home/linuxbrew/ install "$package"
+  /home/linuxbrew/.linuxbrew/bin/brew install "$package"
 done
