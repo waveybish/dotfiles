@@ -13,5 +13,5 @@ packages=(
 )
 
 for package in "${packages[@]}"; do
-  /home/linuxbrew/.linuxbrew/bin/brew install "$package"
+  apt-get install "$package"
 done
