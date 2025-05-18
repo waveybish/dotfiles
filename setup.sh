@@ -12,6 +12,9 @@ packages=(
   lazygit
 )
 
+ls -la /home
+ls -la /home/linuxbrew
+
 for package in "${packages[@]}"; do
-  apt-get install "$package"
+  /home/linuxbrew/ install "$package"
 done
